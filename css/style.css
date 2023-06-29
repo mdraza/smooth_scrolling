@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 50px 0;
+}
+
+.main h2 {
+  font-weight: 400;
+  text-align: center;
+}
+.main small {
+  text-align: center;
+  text-align: center;
+  display: block;
+}
+.main .section {
+  margin: 100px 0 0;
+  transform: translateX(100px);
+  opacity: 0;
+  transition: 1s;
+}
+
+.main .section .card {
+  box-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+  border: none;
+}
+.section.show {
+  transform: translateX(0);
+  opacity: 1;
+}
